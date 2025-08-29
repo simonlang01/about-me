@@ -1,7 +1,143 @@
-.startseite-h1 {
+/* Farben
+
+Hell Türkis: #d3dad9
+Dunkelgrau indigo: #37353e
+Grau Rot: #715a5a
+schwarz: #000000
+weiß: #ffffff
+
+breakpoints
+col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 
+
+Um ein bild gar nicht ab einer größe anzuzeigen ->  <img class"d-none d-md-block d-block mx-auto" ... >
+*/
+
+.simonetta {
 font-family: "Simonetta", serif;
 }
 
-.page {
-    height: 100vh;
+.opensans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.startseite-h1 {
+font-family: "Simonetta", serif;
+color: #d3dad9;
+font-size: 6rem;
+font-weight: 900;
+}
+
+.startseite {
+    background-color: #37353e;
+}
+
+.startseite-subtitle {
+    color: #d3dad9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem
+
+}
+
+.hero{
+    background-color: #d3dad9;
+
+}
+
+.hero-picture {
+    border-radius: 50%;
+}
+
+.hero-headline {
+    color: #37353e;
+}
+
+.hero-text {
+    font-size: 2rem;
+    color: #37353e;
+}
+
+.resume-page {
+    background-color: #715a5a;
+}
+
+.resume-headline {
+    font-family: "Open Sans", sans-serif;
+    color: #d3dad9;
+    font-size: 3rem;
+}
+
+.education-h3 {
+   font-family: "Open Sans", sans-serif;
+    color: #ffffff; 
+}
+
+.education-p {
+    font-family: "Open Sans", sans-serif;
+    color: #d3dad9; 
+    margin: 0;
+}
+
+.no-bullet-points {
+    list-style-type: "> ";
+    
+    color: #37353e;
+}
+
+.about-me {
+    background-color: #d3dad9;
+}
+
+.about-me-h2 {
+    text-align: center;
+    font-family: "Simonetta", serif;
+    color: #37353e;
+    font-size: 3rem;
+} 
+
+.card-body {
+    background-color: #d3dad9;
+     --bs-card-spacer-x: 0;
+}
+
+.card {
+    background-color: #d3dad9;
+    border: 0;
+}
+
+.card-img-top {
+    border-radius: 5%;
+}
+
+.card-title {
+    font-family: "Open Sans", sans-serif;
+    color: #37353e
+
+}
+
+.card-text {
+    font-family: "Open Sans", sans-serif;
+    color: #37353e; 
+}
+
+.contact-head {
+    text-align: center;
+    font-family: "Simonetta", serif;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.contact-text {
+    font-family: "Open Sans", sans-serif;
+    color: #37353e; 
+    font-size: 2rem;
+
+}
+
+.footer-con {
+    background-color: #37353e;
+}
+
+.footer-text {
+    color: #d3dad9;
+    font-size: 1rem;
 }
